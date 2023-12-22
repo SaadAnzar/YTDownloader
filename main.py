@@ -1,7 +1,6 @@
 import os
 import streamlit as st
-from pytube import YouTube
-from pytube import Playlist
+from pytube import YouTube, Playlist
 
 def download_youtube_video(video_url):
     try:
